@@ -1,6 +1,6 @@
 # ingredients
 
-<img src="https://img.shields.io/badge/coverage-75%25-brightgreen.svg?style=flat-square" alt="Code coverage">&nbsp;<a href="https://travis-ci.org/schollz/ingredients"><img src="https://img.shields.io/travis/schollz/ingredients.svg?style=flat-square" alt="Build Status"></a>&nbsp;<a href="https://godoc.org/github.com/schollz/ingredients"><img src="http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square" alt="Go Doc"></a> 
+<img src="https://img.shields.io/badge/coverage-75%25-brightgreen.svg?style=flat-square" alt="Code coverage">&nbsp;<a href="https://travis-ci.org/crhuber/ingredients"><img src="https://img.shields.io/travis/crhuber/ingredients.svg?style=flat-square" alt="Build Status"></a>&nbsp;<a href="https://godoc.org/github.com/crhuber/ingredients"><img src="http://img.shields.io/badge/godoc-reference-5272B4.svg?style=flat-square" alt="Go Doc"></a> 
 
 This is a Golang library for *ingredient tagging* and *extraction* for **any recipe on the internet**. This library compartmentalizes and improves aspects of recipe extraction that I did previously with [schollz/meanrecipe](https://github.com/schollz/meanrecipe) and [schollz/extract_recipe](https://github.com/schollz/extract_recipe).
 
@@ -18,7 +18,7 @@ $ curl https://ingredients.schollz.now.sh/?url=https://cooking.nytimes.com/recip
 
 ### Command line
 
-You can use it from the command line! If you [download a release](https://github.com/schollz/ingredients/releases/latest), you can also use it from the command line:
+You can use it from the command line! If you [download a release](https://github.com/crhuber/ingredients/releases/latest), you can also use it from the command line:
 
 ```
 $ ingredients https://www.tasteofhome.com/recipes/banana-chocolate-chip-cookies/
@@ -30,7 +30,7 @@ $ ingredients https://www.tasteofhome.com/recipes/banana-chocolate-chip-cookies/
 You can use as a library.
 
 ```
-$ go get github.com/schollz/ingredients
+$ go get github.com/crhuber/ingredients
 ```
 
 Pick a random website, like [JoyFoodSunshine](https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/), and you can extract the ingredients:
